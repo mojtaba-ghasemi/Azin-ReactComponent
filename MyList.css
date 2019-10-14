@@ -1,0 +1,9 @@
+.root{
+  margin: 0 0 5px 0;
+  background-color: #e1fff5;
+  color: #3e9cee;
+  /*border-color: #3e9cee;*/
+  /*float: right;*/
+  width: 150px;
+  height: 300px;
+}
