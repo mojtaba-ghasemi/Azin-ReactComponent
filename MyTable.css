@@ -1,0 +1,111 @@
+@import '../../components/variables.css';
+
+.root{
+ 
+  margin: 1px 5px 0 5px;
+ 
+
+}
+
+table {
+  width: 100%;
+  height: 5px;
+  table-layout: fixed;
+  margin-top: -2px; /* same value as border-spacing */
+  margin-right: 0px;
+  margin-left: 10px;
+  background-color: #ffffff;
+  text-align: center;
+ 
+}
+
+td {
+
+  border: 1px solid #bcc4cb;
+  padding: 5px;
+  border-right: none;
+ 
+  /*padding: 5px;*/
+}
+tr{
+  padding: 5px 16px;
+ 
+}
+
+thead[class*="ant-table-thead"] {
+ 
+  background-color: #e8e8e8;
+  text-align: center;
+}
+
+table[class*="ant-table"] {
+
+  border-top: 4px solid #aaaaaa;
+  border-left: 2px solid #aaaaaa;
+  border-right: 2px solid #aaaaaa;
+
+
+}
+div[class*="ant-table-placeholder"] {
+
+  position: unset;
+
+}
+
+
+thead[class*="ant-table-thead"] th {
+  background-color: #ffffff;
+  text-align: center;
+  border-collapse: collapse;
+  /*border: 1px solid #e7e7e7;*/
+  /*color: #767e85;*/
+  color: #030303;
+  font-weight: bold;
+  font-size: larger;
+  padding: 15px 16px;
+
+
+ 
+
+}
+
+tbody[class*="ant-table-tbody"] td {
+  padding: 5px 16px;
+  border-left: none;
+ 
+
+
+}
+
+div[class*="ant-table-fixed-header"]  div[class*="ant-table-scroll"]  div[class*="ant-table-header"] {
+  padding-bottom: 5px;
+}
+
+ 
+.tableTitleSetting{
+
+  color: black;
+  font-weight: bold;
+  font-size: large;
+  text-align: right;
+  margin-top: 50px;
+ 
+}
+.halfCircleTop {
+  height: 50px;
+ 
+}
+
+table[class*="ant-table-fixed"] {
+  border-spacing: 0px;
+}
+
+.btnImage{
+  cursor: pointer;
+  padding-right: 10px;
+}
+.mybtn{
+  /*float: right;*/
+ 
+  margin-left: 100%;
+}
